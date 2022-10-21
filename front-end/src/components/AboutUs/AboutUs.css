@@ -1,0 +1,114 @@
+.hero {
+  background-image: url(https://camposcoffee.com/wp-content/uploads/2021/03/Banner-3.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 28rem;
+  color: var(--color-white);
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 1;
+}
+
+.content {
+  width: 640px;
+}
+
+.content_section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10rem 0 5rem;
+}
+
+.content h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  line-height: 0.8;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin: 0 0 1rem;
+}
+
+.content_section-inner-title {
+  position: relative;
+  padding: 0 0 2rem;
+  transform: translateX(-30px);
+}
+
+.content_section-inner-title::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 48px;
+  height: 8px;
+  background: black;
+}
+
+content p {
+  margin: 1rem 0 2rem;
+  line-height: 1.4;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  background: #efefef;
+}
+
+.images::before,
+.images::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: var(--color-white);
+}
+
+.images::before {
+  top: 0;
+}
+
+.images::after {
+  bottom: 0;
+}
+
+.images-inner {
+  position: relative;
+  width: 840px;
+  z-index: 1;
+}
+
+.images-inner-image {
+  width: 100%;
+  height: auto;
+}
+
+.images-inner-image--top {
+  margin: 0 0 100px;
+  transform: translate3d(-100px, 0, 0);
+}
+
+.images-inner-image--bottom {
+  -webkit-transform: translate3d(100px, 0, 0);
+  transform: translate3d(100px, 0, 0);
+}

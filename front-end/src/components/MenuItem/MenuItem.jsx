@@ -1,24 +1,21 @@
 import './MenuItem.css';
-import images from '../../constants/images';
-const MenuItem = () => {
+// import images from '../../constants/images';
+const MenuItem = ({name, price, index}) => {
   return (
     <>
-      <h1>MenuItem</h1>
-      <div style={{width: '300px'}}>
         <a href="#!" className="product-card">
           <div className="product-card__image">
             <img
-              src="https://camposcoffee.com/wp-content/uploads/2018/11/500G_Front_SUPERIOR-300x300.png"
+              src={`https://picsum.photos/300/300?random=${index}`}
               alt="Pho-Nam-Dinh"
             />
           </div>
           <div className="product-card__content">
-            <h2 className="product-card__content__title">Rice paper rolls</h2>
-            <span className="product-card__content__price">10$</span>
+            <h2 className="product-card__content__title">{name}</h2>
+            <span className="product-card__content__price">{price}$</span>
           </div>
         </a>
-      </div>
-      <div style={{width: '300px', marginLeft: '50px'}}>
+      {/* <div style={{width: '300px'}}>
         <a href="#!" className="product-card">
           <div className="product-card__image">
             <img
@@ -31,7 +28,7 @@ const MenuItem = () => {
             <span className="product-card__content__price">10$</span>
           </div>
         </a>
-      </div>
+      </div> */}
     </>
   );
 };

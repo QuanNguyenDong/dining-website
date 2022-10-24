@@ -11,7 +11,7 @@ const AboutUs = () => {
           <h2 className="content_section-inner-title">
             Lorem ipsum, dolor sit amet consectetur.
           </h2>
-          <content>
+          <div>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Recusandae, rem distinctio quaerat autem laborum facilis
@@ -33,7 +33,7 @@ const AboutUs = () => {
               voluptas vero dicta veritatis ab earum rem?
             </p>
             <p>&nbsp</p>
-          </content>
+          </div>
         </div>
       </section>
       <section className="images">

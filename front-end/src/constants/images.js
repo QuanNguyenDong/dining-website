@@ -1,3 +1,3 @@
 import noodleLogo from '../assets/Noodles-logo.png';
-
-export default {noodleLogo}
+import rareBeefPho from '../assets/ND_img_beefPho.jpg'
+export default {noodleLogo, rareBeefPho}

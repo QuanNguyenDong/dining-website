@@ -13,6 +13,11 @@
   overflow: hidden;
 }
 
+.hero h1 {
+  position: absolute;
+  z-index: 2;
+}
+
 .hero::before {
   content: "";
   position: absolute;
@@ -61,7 +66,7 @@
   background: black;
 }
 
-content p {
+.content p {
   margin: 1rem 0 2rem;
   line-height: 1.4;
 }
@@ -99,7 +104,7 @@ content p {
 }
 
 .images-inner-image {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 

@@ -7,13 +7,15 @@ const Menu = () => {
       {food_category.map((category) => {
         return (
           <>
-            <h1 className="product-category">{category.title}</h1>
-            <div className="row">
-              {category.food_items.map((item, index) => (
-                <div className="col l-3 product-card__item">
-                  <MenuItem name={item.name} price={item.price} index={index}/>
-                </div>
-              ))}
+            <div className="grid wide">
+              <h1 className="product-category">{category.title}</h1>
+              <div className="row">
+                {category.food_items.map((item, index) => (
+                  <div className="col l-3 product-card__item">
+                    <MenuItem name={item.name} price={item.price} index={index}/>
+                  </div>
+                ))}
+              </div>
             </div>
           </>
         );

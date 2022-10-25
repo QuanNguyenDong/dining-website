@@ -1,0 +1,26 @@
+.banner-content-panel {
+  width: 100%;
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+  min-height: auto;
+}
+
+.banner-content {
+  width: 70%;
+  padding: 0 4rem;
+  border-left: 1rem solid black;
+}
+
+.banner-content h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}

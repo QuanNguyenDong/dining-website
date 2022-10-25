@@ -6,7 +6,7 @@ import { Contact, Home, Menu } from './pages';
 
 function App() {
   return (
-    <div className="App grid wide">
+    <div className="App">
       <Navbar />
 
       <Routes>

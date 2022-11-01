@@ -1,5 +1,5 @@
 .hero {
-  background-image: url(https://camposcoffee.com/wp-content/uploads/2021/03/Banner-3.jpg);
+  /* background-image: url(https://camposcoffee.com/wp-content/uploads/2021/03/Banner-3.jpg); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,10 +7,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  height: 28rem;
+  height: 30rem;
   color: var(--color-white);
   text-align: center;
   overflow: hidden;
+  background-size: cover;
+  background-position: 0 30%;
+  background-repeat: no-repeat;
+  max-width: 100%;
 }
 
 .hero h1 {
@@ -71,15 +75,40 @@
   line-height: 1.4;
 }
 
-.images {
+.wrapper {
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  position: relative;
+  align-items: center;
   background: #efefef;
+  padding: 5rem 0;
+  padding-bottom: 13rem;
 }
 
-.images::before,
+.comment {
+  width: 440px;
+}
+
+.comment p {
+  border-left: 5px solid black;
+  padding-left: 2rem;
+}
+
+.commet p {
+  padding-left: 2rem;
+}
+
+/* .wineBackground {
+  width: 210px;
+  height: 80px;
+} */
+
+.wineBackground img {
+  transform-origin: 0 20%;
+  transform: scale(1.75);
+}
+
+/* .images::before,
 .images::after{
   content: "";
   position: absolute;
@@ -116,4 +145,4 @@
 .images-inner-image--bottom {
   -webkit-transform: translate3d(100px, 0, 0);
   transform: translate3d(100px, 0, 0);
-}
+} */

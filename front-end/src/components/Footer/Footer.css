@@ -1,9 +1,10 @@
 
 .footer {
-  background-color: #898f4b;
+  background-color: #000000;
   padding-top: 5rem;
   padding-bottom: 2rem;
   margin-top: 2rem;
+  color: var(--color-white);
 }
 
 .footer__links {
@@ -13,6 +14,7 @@
 }
 
 .footer__links__title {
+  font-family: 'Time New Roman', serif;
   font-size: 4rem;
   text-transform: uppercase;
   line-height: 0.8;
@@ -20,6 +22,8 @@
   flex: 0 0 25%;
   max-width: 25%;
   height: 100%;
+  border-left: 10px solid currentColor;
+  padding-left: 1rem;
 }
 
 .footer__menu {
@@ -33,7 +37,7 @@
   position: absolute;
   width: 40px;
   height: 4px;
-  background-color: black;
+  background-color: currentColor;
   top: 50px;
   left: 0;
 }

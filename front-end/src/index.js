@@ -12,3 +12,8 @@ root.render(
     </Router>
   </React.StrictMode>
 );
+
+
+// https://www.codavilla.com/posts/react-navbar-tutorial-3-designs
+// https://github.dev/briancodex/react-navbar-v3
+// https://amazon-3l2.pages.dev/

@@ -1,10 +1,11 @@
+import images from '../../constants/images';
 import './AboutUs.css';
 
 const AboutUs = () => {
   return (
     <>
-      <section className="hero">
-        <h1>About Us</h1>
+      <section className="hero" style={{backgroundImage: `url(${images.ndBanner})`}}>
+        {/* <h1>About Us</h1> */}
       </section>
       <section className="content_section">
         <div className="content">
@@ -36,8 +37,8 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-      <section className="images">
-        <div className="images-inner">
+      <section className="wrapper">
+        {/* <div className="images-inner">
           <img
             src="https://camposcoffee.com/wp-content/uploads/2016/09/kenya-tchakakani-campos-768x509.jpg"
             alt="Pho Nam Dinh 1"
@@ -48,6 +49,17 @@ const AboutUs = () => {
             alt="Pho Nam Dinh 2"
             className="images-inner-image images-inner-image--bottom"
           />
+        </div> */}
+        <div className="comment">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, sed
+            excepturi. Dolorum tempora totam nemo eius ad adipisci quos id
+            libero ipsum, consequuntur non ducimus aliquid fugit perferendis ea
+            architecto.
+          </p>
+        </div>
+        <div className="wineBackground">
+          <img src={images.wineImage} alt="" />
         </div>
       </section>
     </>

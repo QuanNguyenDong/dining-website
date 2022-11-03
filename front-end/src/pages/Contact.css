@@ -8,6 +8,7 @@
 .banner-content {
   width: 70%;
   padding: 0 4rem;
+  margin-bottom: 60px;
   border-left: 1rem solid black;
 }
 
@@ -23,4 +24,8 @@
   line-height: 1.5rem;
   font-weight: 400;
   margin-bottom: 1rem;
+}
+
+.banner-content-panel iframe {
+  outline: 1px solid #ccc;
 }

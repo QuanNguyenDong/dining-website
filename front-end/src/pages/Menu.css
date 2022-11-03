@@ -1,11 +1,12 @@
 .product-card__item {
   margin-top: 14px;
   margin-bottom: 10px;
-  text-align: center;
+  /* text-align: center; */
   width: 300px;
 }
 
 .product-category {
+  font-size: 2.5rem;
   margin-top: 30px;
   margin-left: 10px;
 }

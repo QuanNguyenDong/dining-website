@@ -23,12 +23,12 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer__menu">
-            <h1>Lorem.</h1>
+            <h1>Contact Us</h1>
             <ul>
-              <li>Lorem.</li>
-              <li>Lorem.</li>
-              <li>Lorem.</li>
-              <li>Lorem.</li>
+              <li>Norton Street, Leichhardt</li>
+              <li>Sydney, NSW</li>
+              <li>0123 123 123</li>
+              <li>email</li>
             </ul>
           </div>
         </div>

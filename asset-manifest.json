@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.925ec9a4.css",
-    "main.js": "/static/js/main.81891e6a.js",
+    "main.js": "/static/js/main.6ef68f9a.js",
     "static/media/PND-banner.jpg": "/static/media/PND-banner.e5d30e9b586747d42d38.jpg",
     "static/media/Egg-Noodle-CC.jpg": "/static/media/Egg-Noodle-CC.f00afc8fd50c57ee80f7.jpg",
     "static/media/ND_img_PhoTai.jpg": "/static/media/ND_img_PhoTai.244488f2de217f6a5267.jpg",
@@ -10,10 +10,10 @@
     "static/media/Noodles-logo.png": "/static/media/Noodles-logo.ed7783c7bbee79c85a8d.png",
     "index.html": "/index.html",
     "main.925ec9a4.css.map": "/static/css/main.925ec9a4.css.map",
-    "main.81891e6a.js.map": "/static/js/main.81891e6a.js.map"
+    "main.6ef68f9a.js.map": "/static/js/main.6ef68f9a.js.map"
   },
   "entrypoints": [
     "static/css/main.925ec9a4.css",
-    "static/js/main.81891e6a.js"
+    "static/js/main.6ef68f9a.js"
   ]
 }

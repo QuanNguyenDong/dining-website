@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/phonamdinh/static/css/main.925ec9a4.css",
+    "main.js": "/phonamdinh/static/js/main.8fcc0717.js",
+    "static/media/PND-banner.jpg": "/phonamdinh/static/media/PND-banner.e5d30e9b586747d42d38.jpg",
+    "static/media/Egg-Noodle-CC.jpg": "/phonamdinh/static/media/Egg-Noodle-CC.f00afc8fd50c57ee80f7.jpg",
+    "static/media/ND_img_PhoTai.jpg": "/phonamdinh/static/media/ND_img_PhoTai.244488f2de217f6a5267.jpg",
+    "static/media/Bun-cha.jpg": "/phonamdinh/static/media/Bun-cha.9a4dc1c837a94a100f5c.jpg",
+    "static/media/Dinner.jpg": "/phonamdinh/static/media/Dinner.7d48afb111f3fbabf236.jpg",
+    "static/media/Noodles-logo.png": "/phonamdinh/static/media/Noodles-logo.ed7783c7bbee79c85a8d.png",
+    "index.html": "/phonamdinh/index.html",
+    "main.925ec9a4.css.map": "/phonamdinh/static/css/main.925ec9a4.css.map",
+    "main.8fcc0717.js.map": "/phonamdinh/static/js/main.8fcc0717.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.925ec9a4.css",
+    "static/js/main.8fcc0717.js"
+  ]
+}

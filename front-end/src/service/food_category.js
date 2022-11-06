@@ -1,6 +1,7 @@
-// import rareBeefPho from '../assets/ND_img_beefPho.jpg';
 import beefPho from '../assets/ND_img_PhoTai.jpg';
-import bunCha from '../assets/Bun-cha.jpg';
+import bunCha from '../assets/images/Bun-cha.jpg';
+// import eggNoodleCC from '../assets/images/
+import images from '../constants/images';
 const food_category = [
   {
     title: 'Entree',
@@ -61,6 +62,15 @@ const food_category = [
         name: 'Rare beef noodle soup (beef Pho)',
         desc: 'tripe/ meetball/ brisket',
         image: bunCha,
+        price: '16'
+      }
+    ]
+  }, {
+    title: 'Egg Noodle',
+    food_items: [
+      {
+        name: 'Egg Noodle with Crispy chicken',
+        image: images.eggNoodleCC,
         price: '16'
       }
     ]

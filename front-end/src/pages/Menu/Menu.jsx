@@ -1,5 +1,5 @@
-import { MenuItem } from '../components';
-import food_category from './food_category';
+import { MenuItem } from '../../components';
+import food_category from '../../service/food_category';
 import './Menu.css';
 const Menu = () => {
   return (
@@ -12,7 +12,13 @@ const Menu = () => {
               <div className="row">
                 {category.food_items.map((item, index) => (
                   <div className="col l-3 product-card__item">
-                    <MenuItem name={item.name} desc={item.desc} image={item.image} price={item.price} index={index}/>
+                    <MenuItem
+                      name={item.name}
+                      desc={item.desc}
+                      image={item.image}
+                      price={item.price}
+                      index={index}
+                    />
                   </div>
                 ))}
               </div>

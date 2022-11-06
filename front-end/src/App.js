@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { Footer, Navbar } from './components';
-import AboutUs from './components/AboutUs/AboutUs';
-import { Contact, Home, Menu } from './pages';
+import { AboutUs, Contact, Home, Menu } from './pages';
+import './responsive.css';
 
 function App() {
   return (

@@ -4,7 +4,7 @@ import './AboutUs.css';
 const AboutUs = () => {
   return (
     <>
-      <section className="hero" style={{backgroundImage: `url(${images.ndBanner})`}}>
+      <section className="hero" style={{backgroundImage: `url(${images.pndBanner})`}}>
         {/* <h1>About Us</h1> */}
       </section>
       <section className="content_section">

@@ -29,6 +29,12 @@
   scroll-behavior: smooth;
 }
 
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+	font-family: 'Roboto', sans-serif;
+}
+
 a {
   color: unset;
   text-decoration: none;

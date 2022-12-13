@@ -5,8 +5,8 @@ const AboutUs = () => {
   return (
     <>
       <section className="hero" style={{backgroundImage: `url(${images.pndBanner})`}}>
-        {/* <h1>About Us</h1> */}
       </section>
+      
       <section className="content_section">
         <div className="content">
           <h2 className="content_section-inner-title">
@@ -52,10 +52,7 @@ const AboutUs = () => {
         </div> */}
         <div className="comment">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, sed
-            excepturi. Dolorum tempora totam nemo eius ad adipisci quos id
-            libero ipsum, consequuntur non ducimus aliquid fugit perferendis ea
-            architecto.
+            We specialize in cooking on Nam Dinh pho, where the main origin of pho begins. We also welcome you to enjoy Vietnamese cuisine. In addition, we also have alcohol for use at the restaurant
           </p>
         </div>
         <div className="wineBackground">

@@ -31,6 +31,9 @@
   height: 100%;
   user-select: text;
   min-width: 253px;
+  color: unset;
+  text-decoration: none;
+  font-size: 1.7rem;
 }
 
 .app__navbar-logo img {
@@ -43,7 +46,7 @@
   justify-content: center;
   align-items: center;
   list-style: none;
-  font-size: 1.75rem;
+  font-size: 2.5rem;
 }
 
 .app__navbar-links li {

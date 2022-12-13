@@ -1,48 +1,40 @@
-import beefPho from '../assets/ND_img_PhoTai.jpg';
+import rareBeef from '../assets/images/rare beef.jpg';
 import bunCha from '../assets/images/Bun-cha.jpg';
-// import eggNoodleCC from '../assets/images/
+import springRolls from '../assets/images/spring rolls.jpg';
+import pancakes from '../assets/images/pancakes.jpg';
+import fishCakes from '../assets/images/fish cakes.jpg';
+import eggplant from '../assets/images/eggplant SP.jpg';
 import images from '../constants/images';
 const food_category = [
   {
     title: 'Entree',
     food_items: [
       {
-        name: 'Rice paper rolls',
-        desc: 'Grill pork/ chicken/ beef/ prawn/ tofu',
-        price: '10',
-      }, {
         name: 'Deep fried spring rolls',
         desc: 'Pork and taro/ veggies and tofu',
-        price: '10'
+        price: '10',
+        image: springRolls
       }, {
         name: 'Crispy Vietnamese panscake',
-        price: '15'
+        price: '15',
+        image: pancakes
       }, {
-        name: 'Ground beef in betel leaf',
-        price: '8'
+        name: 'Fish cakes',
+        price: '12',
+        image: fishCakes
       }, {
-        name: 'Dumpling',
-        price: '10'
+        name: 'Fish cakes',
+        price: '12',
+        image: fishCakes
       }
     ]
   }, {
     title: 'Salt and pepper',
     food_items: [
       {
-        name: 'Porkchop',
-        price: '16'
-      }, {
-        name: 'Calamari',
-        price: '21'
-      }, {
-        name: 'Prawn',
-        price: '21'
-      }, {
-        name: 'Chicken',
-        price: '17'
-      }, {
-        name: 'Fish',
-        price: '21'
+        name: 'Eggplant',
+        price: '14',
+        image: eggplant
       }
     ]
   }, {
@@ -51,7 +43,7 @@ const food_category = [
       {
         name: 'Rare beef noodle soup (beef Pho)',
         desc: 'tripe/ meetball/ brisket',
-        image: beefPho,
+        image: rareBeef,
         price: '16'
       }
     ]

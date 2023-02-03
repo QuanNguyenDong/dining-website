@@ -10,19 +10,11 @@ const AboutUs = () => {
       <section className="content_section">
         <div className="content">
           <h2 className="content_section-inner-title">
-            Lorem ipsum, dolor sit amet consectetur.
+          From Pho Nam Dinh Leichhardt
           </h2>
           <div>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Recusandae, rem distinctio quaerat autem laborum facilis
-              consequuntur, magni inventore architecto quos maiores incidunt
-              culpa laudantium soluta libero. Quos, sequi reiciendis
-              perspiciatis deserunt modi explicabo? Dolore facilis dolorem
-              tempore impedit vitae asperiores autem in repellat eos
-              voluptatibus distinctio sit, hic sequi laboriosam nisi libero
-              exercitationem iste maxime omnis, magni blanditiis nostrum
-              accusantium.
+            We specialize in cooking on Nam Dinh pho, where the main origin of pho begins. We also welcome you to enjoy Vietnamese cuisine. In addition, we also have alcohol for use at the restaurant.
             </p>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.

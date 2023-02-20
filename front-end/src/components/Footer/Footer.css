@@ -1,21 +1,21 @@
 
 .footer {
-  background-color: #000000;
-  padding-top: 5rem;
-  padding-bottom: 2rem;
-  margin-top: 2rem;
+  background-color: var(--lightGreen-1);
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-top: 20px;
   color: var(--color-white);
 }
 
 .footer__links {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 5rem;
+  padding-bottom: 50px;
 }
 
 .footer__links__title {
   font-family: 'Time New Roman', serif;
-  font-size: 4rem;
+  font-size: 5.5rem;
   text-transform: uppercase;
   line-height: 0.8;
   font-weight: 600;
@@ -23,7 +23,8 @@
   max-width: 25%;
   height: 100%;
   border-left: 10px solid currentColor;
-  padding-left: 1rem;
+  padding-left: 10px;
+  color: var(--black-2);
 }
 
 .footer__menu {
@@ -38,17 +39,16 @@
   width: 40px;
   height: 4px;
   background-color: currentColor;
-  top: 50px;
-  left: 0;
+  top: 45px;
+  left: 7.5px;
 }
 
 .footer__menu ul {
-  margin-top: 2rem;
-}
-
-.footer__menu ul {
-  font-size: 1.2rem;
+  margin-top: 30px;
+  padding: 0;
+  font-size: 1.6rem;
   list-style: none;
+  color: var(--black-1);
 }
 
 .footer__legal-menu {

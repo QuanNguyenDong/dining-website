@@ -1,2 +1,4 @@
 node_modules
-docker*.yml
+docker-compose.dev.yml
+Makefile
+food.json

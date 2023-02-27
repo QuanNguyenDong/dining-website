@@ -3,9 +3,8 @@ Dockerfile
 .dockerignore
 .git
 .gitignore
-docker-compose*
 Makefile
 script.sh
 README.md
-front-end
+./front-end
 jood.json

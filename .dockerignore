@@ -1,0 +1,10 @@
+node_modules
+Dockerfile
+.dockerignore
+.git
+.gitignore
+Makefile
+script.sh
+README.md
+./front-end
+jood.json

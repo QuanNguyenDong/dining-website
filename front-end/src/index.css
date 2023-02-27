@@ -1,28 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,900&display=swap');
 :root {
-  /* --font-base: 'Cormorant Upright', serif; */
-  /* --font-alt: 'Open Sans', sans-serif; */
-  
-  --color-golden: #DCCA87;
-  --color-black: #0C0C0C;
-  --color-gray: #545454;
-  --color-crimson: #F5EFDB;
-  --color-grey: #AAAAAA;
-  --color-white: #FFFFFF;
-
-  --color-yellow: #fcfb00;
-  --color-spice: #6d3b2c;
-  --color-blue-ribbon: #0161e7;
-  --color-orange: #fe772b;
-  --color-silver: #bfbfbf;
-  --color-marigold-yellow: #f9f777;
-  --color-earls-green: #bcba36;
-  --color-chambray: #374e86;
+  --green-1: #26643b;
+  --green-2: #a2de96;
+  --lightGreen-1: #d6e5d8;
+  --lightGreen-2: #f5fcf4;
+  --black-1: #3b413a;
+  --black-2: #3f3c3c;
+  --black-3: #5b6359;
+  --white-1: #e8e8e8;
 }
 
 * {
-  /* font-family: 'Montserrat',sans-serif; */
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -38,4 +27,22 @@ html {
 a {
   color: unset;
   text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 98px;
+  padding: 18px 16px;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+body {
+  background: var(--lightGreen-2);
 }

@@ -2,3 +2,5 @@ node_modules
 docker-compose.dev.yml
 Makefile
 food.json
+front-end/*
+!front-end/build

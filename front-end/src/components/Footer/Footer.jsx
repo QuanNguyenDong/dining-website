@@ -4,16 +4,16 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
-        <div className="row footer__links">
-          <h1 className="col-3 footer__links__title">Stay in touch</h1>
-          <div className="col-3 footer__menu">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-5 footer__links">
+          <h1 className="col footer__links__title">Stay in touch</h1>
+          <div className="col footer__menu">
             <h1>Social Media</h1>
             <ul>
-              <li>Facebook</li>
+              <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/phonamdinh2040">Facebook</a></li>
               <li>Instagram</li>
             </ul>
           </div>
-          <div className="col-3 footer__menu">
+          <div className="col footer__menu">
             <h1>Menu</h1>
             <ul>
               <li>Home</li>
@@ -22,12 +22,12 @@ const Footer = () => {
               <li>Contact</li>
             </ul>
           </div>
-          <div className="col-3 footer__menu">
+          <div className="col  footer__menu">
             <h1>Contact Us</h1>
             <ul>
-              <li>Norton Street, Leichhardt</li>
+              <li>148 Norton St, Leichhardt</li>
               <li>Sydney, NSW</li>
-              <li>0123 123 123</li>
+              <li>0280 840 489</li>
               <li>email</li>
             </ul>
           </div>

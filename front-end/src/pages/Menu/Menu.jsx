@@ -12,7 +12,7 @@ const Menu = () => {
                 <h3 className="product-category">{category.title}</h3>
                 <div className="row">
                   {category.food_items.map((item, index) => (
-                    <div className="col-3">
+                    <div className="col-6 col-sm-6 col-md-4 col-lg-3">
                       <div className="product-card__item">
                         <MenuItem
                           name={item.name}

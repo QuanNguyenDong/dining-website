@@ -2,17 +2,24 @@ const mongoose = require('mongoose')
 
 const menuSchema = mongoose.Schema(
   {
-    name: {
+    title: {
       type: String,
       required: true,
     },
-    desc: {
-      type: String,
-    },
-    price: {
-      type: Number,
-      required: true,
+    food_items: [{
+      name: {
+        type: String,
+        required: true,
+      },
+      desc: {
+        type: String,
+      },
+      price: {
+        type: Number,
+        required: true,
+      }
     }
+    ]
   },
   {
     timestamps: true,

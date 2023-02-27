@@ -3,27 +3,19 @@ import './Contact.css';
 const Contact = () => {
   return (
     <>
-      <div className="grid wide">
+      <div className="container">
         <div className="banner-content-panel">
           <div className="banner-content">
             <h1>Contact us</h1>
             <p>
-              <strong>
-                <u>Location:</u>
-              </strong>{' '}
-              Norton Street, Leichhardt
+              <strong>Location:</strong> 148 Norton St, Leichhardt
             </p>
             <p>
-              <strong>
-                <u>Opening Hours:</u>
-              </strong>{' '}
-              Monday to Sunday - 10AM to 9PM
+              <strong>Opening Hours:</strong> Monday to Sunday - 10AM to 9PM
             </p>
             <p>
-              <strong>
-                <u>Phone:</u>
-              </strong>{' '}
-              <a href="tel:0123 123 123">0123 123 123</a>
+              <strong>Phone:</strong>{' '}
+              <a href="tel:0280840489">0280 840 489</a>
             </p>
           </div>
           <iframe

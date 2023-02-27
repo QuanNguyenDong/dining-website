@@ -12,5 +12,6 @@
 
 .product-card__item {
   margin: 14px auto 10px;
-  width: 250px;
+  width: 100%;
+  justify-content: center;
 }

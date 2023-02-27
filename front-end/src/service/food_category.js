@@ -1,6 +1,6 @@
 import rareBeef from '../assets/images/rare beef.jpg';
 import bunCha from '../assets/images/Bun-cha.jpg';
-import springRolls from '../assets/images/spring rolls.jpg';
+import springRolls from '../assets/images/spring-rolls.jpg';
 import pancakes from '../assets/images/pancakes.jpg';
 import fishCakes from '../assets/images/fish cakes.jpg';
 import eggplant from '../assets/images/eggplant SP.jpg';

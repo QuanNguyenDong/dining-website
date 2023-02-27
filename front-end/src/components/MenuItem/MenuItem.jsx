@@ -2,14 +2,8 @@ import './MenuItem.css';
 const MenuItem = ({name, desc, image, price, index}) => {
   return (
     <>
-        <a href="#!" className="product-card" >
-          <div className="product-card__image">
-            <img
-              src={image || `https://picsum.photos/300/300?random=${index}`}
-              alt="Pho-Nam-Dinh"
-            />
-          </div>
-        </a>
+        <span style={{backgroundImage: `url(${image})`}} className="product-card__img">
+        </span>
         <div className="product-card__content">
           <div>
             <span className="product-card__content__title">{name}</span>

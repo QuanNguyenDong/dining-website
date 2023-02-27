@@ -6,5 +6,5 @@ Dockerfile
 Makefile
 script.sh
 README.md
-./front-end
+front-end
 jood.json

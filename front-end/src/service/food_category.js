@@ -174,7 +174,7 @@ const food_category = [
       {
         name: 'Rare beef noodle soup (beef Pho)',
         desc: 'tripe/ meetball/ brisket',
-        image: bunCha,
+        // image: bunCha,
         price: '16'
       }
     ]
@@ -183,7 +183,7 @@ const food_category = [
     food_items: [
       {
         name: 'Egg Noodle with Crispy chicken',
-        image: images.eggNoodleCC,
+        // image: images.eggNoodleCC,
         price: '16'
       }
     ]

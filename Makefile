@@ -3,8 +3,7 @@ DK = docker
 DCYML = docker-compose.yml
 DCDYML = docker-compose.dev.yml
 
-docker-compose-up-build: docker-compose.yml
-	make docker-compose-down
+docker-compose-build:
 	$(DC) -f $(DCYML) -f $(DCDYML) up -d --build
 
 docker-compose-up: docker-compose.yml

@@ -1,32 +1,30 @@
-import bunCha from '../assets/images/Bun-cha.jpg';
-import images from '../constants/images';
 
 // Entree
-import springRolls from '../assets(1)/entree/springRolls.jpg';
-import ricePaper from '../assets(1)/entree/ricePaper.jpg';
-import pancakes from '../assets(1)/entree/pancakes.jpg';
-import fishCakes from '../assets(1)/entree/fishCakes.jpg';
-// import betalLeaf from '../assets(1)/entree/fishCakes.jpg';
-import tofuTamarind from '../assets(1)/entree/tofuTamarind.jpg';
-import dumpling from '../assets(1)/entree/dumpling.jpg';
-import scallop from '../assets(1)/entree/scallop.jpg';
-import tempuraPrawn from '../assets(1)/entree/tempuraPrawn.jpg';
-import sugarcanePrawn from '../assets(1)/entree/sugarcanePrawn.jpg';
-import eggplantGS from '../assets(1)/entree/eggplantGS.jpg';
+import springRolls from '../assets/entree/springRolls.jpg';
+import ricePaper from '../assets/entree/ricePaper.jpg';
+import pancakes from '../assets/entree/pancakes.jpg';
+import fishCakes from '../assets/entree/fishCakes.jpg';
+// import betalLeaf from '../assets/entree/fishCakes.jpg';
+import tofuTamarind from '../assets/entree/tofuTamarind.jpg';
+import dumpling from '../assets/entree/dumpling.jpg';
+import scallop from '../assets/entree/scallop.jpg';
+import tempuraPrawn from '../assets/entree/tempuraPrawn.jpg';
+import sugarcanePrawn from '../assets/entree/sugarcanePrawn.jpg';
+import eggplantGS from '../assets/entree/eggplantGS.jpg';
 
 // Salt and Pepper
-import porkchopSP from '../assets(1)/saltAndPepper/porkchopSP.jpg';
-import prawnSP from '../assets(1)/saltAndPepper/prawnSP.jpg';
-import calamariSP from '../assets(1)/saltAndPepper/calamariSP.jpg';
-import eggplantSP from '../assets(1)/saltAndPepper/eggplantSP.jpg';
+import porkchopSP from '../assets/saltAndPepper/porkchopSP.jpg';
+import prawnSP from '../assets/saltAndPepper/prawnSP.jpg';
+import calamariSP from '../assets/saltAndPepper/calamariSP.jpg';
+import eggplantSP from '../assets/saltAndPepper/eggplantSP.jpg';
 
 // Rice noodle soup
-import rareBeef from '../assets(1)/riceNoodle/rareBeef.jpg';
-import combinationPho from '../assets(1)/riceNoodle/combinationPho.jpg';
-import namDinh from '../assets(1)/riceNoodle/namDinh.jpg';
-import rarebeefBrisker from '../assets(1)/riceNoodle/rareBeefBrisker.jpg';
-import stewBeef from '../assets(1)/riceNoodle/stewBeef.jpg';
-import friedNoodle from '../assets(1)/riceNoodle/friedNoodle.jpg';
+import rareBeef from '../assets/riceNoodle/rareBeef.jpg';
+import combinationPho from '../assets/riceNoodle/combinationPho.jpg';
+import namDinh from '../assets/riceNoodle/namDinh.jpg';
+import rarebeefBrisker from '../assets/riceNoodle/rareBeefBrisker.jpg';
+import stewBeef from '../assets/riceNoodle/stewBeef.jpg';
+import friedNoodle from '../assets/riceNoodle/friedNoodle.jpg';
 
 const food_category = [
   {
@@ -176,7 +174,7 @@ const food_category = [
       {
         name: 'Rare beef noodle soup (beef Pho)',
         desc: 'tripe/ meetball/ brisket',
-        image: bunCha,
+        // image: bunCha,
         price: '16'
       }
     ]
@@ -185,7 +183,7 @@ const food_category = [
     food_items: [
       {
         name: 'Egg Noodle with Crispy chicken',
-        image: images.eggNoodleCC,
+        // image: images.eggNoodleCC,
         price: '16'
       }
     ]

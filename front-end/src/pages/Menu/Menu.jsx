@@ -1,11 +1,22 @@
 import { MenuItem } from '../../components';
-import food_category from '../../service/food_category';
+// import food_category from '../../service/food_category';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 import './Menu.css';
 const Menu = () => {
+  const [foods, setFoods] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const {data} = await axios.get('/api/menu');
+      setFoods(data);
+    };
+    fetchData()
+  }, [])
+
   return (
     <>
       <div className="container">
-        {food_category.map((category) => {
+        {foods.map((category) => {
           return (
             <>
               <div className="menu-content">

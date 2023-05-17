@@ -6,7 +6,7 @@ const Menu = require('../models/menuModel');
 // @access Public
 const getMenu = asyncHandler(async (req, res) => {
   const menu = await Menu.find({});
-
+  
   res.status(200).json(menu);
 });
 

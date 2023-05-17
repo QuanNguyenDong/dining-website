@@ -1,38 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.32a93c21.css",
-    "main.js": "/static/js/main.82b94740.js",
-    "static/media/PND-banner.jpg": "/static/media/PND-banner.e5d30e9b586747d42d38.jpg",
-    "static/media/tempuraPrawn.jpg": "/static/media/tempuraPrawn.b423016d46921eaf1b51.jpg",
-    "static/media/dumpling.jpg": "/static/media/dumpling.1c5fd1935c579b77e73c.jpg",
-    "static/media/namDinh.jpg": "/static/media/namDinh.46cae2403a537e2e0bf9.jpg",
-    "static/media/combinationPho.jpg": "/static/media/combinationPho.acab49fbb4959cde9a1e.jpg",
-    "static/media/eggplantGS.jpg": "/static/media/eggplantGS.0f8271129409e097b32b.jpg",
-    "static/media/rareBeef.jpg": "/static/media/rareBeef.e9e6a28a27562e6014c0.jpg",
-    "static/media/rareBeefBrisker.jpg": "/static/media/rareBeefBrisker.4ca070087a1289d78675.jpg",
-    "static/media/friedNoodle.jpg": "/static/media/friedNoodle.5a9222b31ea7816e868f.jpg",
-    "static/media/prawnSP.jpg": "/static/media/prawnSP.35ac38f198b5040ebd29.jpg",
-    "static/media/porkchopSP.jpg": "/static/media/porkchopSP.a1235a1f241d5914b92b.jpg",
-    "static/media/calamariSP.jpg": "/static/media/calamariSP.7c4123524323c66f5631.jpg",
-    "static/media/springRolls.jpg": "/static/media/springRolls.1cecb2a31857c9fcd631.jpg",
-    "static/media/ricePaper.jpg": "/static/media/ricePaper.ae2b9e699fbb218b5c91.jpg",
-    "static/media/fishCakes.jpg": "/static/media/fishCakes.0a3e7d41d0497c730b69.jpg",
-    "static/media/tofuTamarind.jpg": "/static/media/tofuTamarind.6a21661a07a416be8f27.jpg",
-    "static/media/pancakes.jpg": "/static/media/pancakes.20143f8c620894978274.jpg",
-    "static/media/eggplantSP.jpg": "/static/media/eggplantSP.9fd13a0145869c0c3fc5.jpg",
-    "static/media/scallop.jpg": "/static/media/scallop.663ca54b2d19b21272b6.jpg",
-    "static/media/Egg-Noodle-CC.jpg": "/static/media/Egg-Noodle-CC.f00afc8fd50c57ee80f7.jpg",
-    "static/media/stewBeef.jpg": "/static/media/stewBeef.489e23294a838c8bc9e6.jpg",
-    "static/media/Bun-cha.jpg": "/static/media/Bun-cha.9a4dc1c837a94a100f5c.jpg",
-    "static/media/Dinner.jpg": "/static/media/Dinner.7d48afb111f3fbabf236.jpg",
-    "static/media/sugarcanePrawn.jpg": "/static/media/sugarcanePrawn.7554807158250505ab74.jpg",
-    "static/media/Noodles-logo.png": "/static/media/Noodles-logo.ed7783c7bbee79c85a8d.png",
+    "main.css": "/static/css/main.b4e41494.css",
+    "main.js": "/static/js/main.c5e129f0.js",
     "index.html": "/index.html",
-    "main.32a93c21.css.map": "/static/css/main.32a93c21.css.map",
-    "main.82b94740.js.map": "/static/js/main.82b94740.js.map"
+    "main.b4e41494.css.map": "/static/css/main.b4e41494.css.map",
+    "main.c5e129f0.js.map": "/static/js/main.c5e129f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.32a93c21.css",
-    "static/js/main.82b94740.js"
+    "static/css/main.b4e41494.css",
+    "static/js/main.c5e129f0.js"
   ]
 }

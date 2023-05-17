@@ -1,37 +1,14 @@
 const express = require('express');
 const path = require('path');
+const connectDB = require('./config/db');
+const food = require('./data/food');
 // const dotenv = require('dotenv').config();
-const mongoose = require('mongoose');
-const {
-  MONGO_USER,
-  MONGO_PASSWORD,
-  MONGO_IP,
-  MONGO_PORT
-} = require('./config/config');
 
 const app = express();
 const port = 3000
 
-const mongoURL = `mongodb://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_IP}:${MONGO_PORT}/?authSource=admin`;
+connectDB()
 
-console.log(mongoURL)
-
-const connectWithRetry = () => {
-  mongoose
-    .connect(mongoURL, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      // useFindAndModify: false,
-    })
-    .then(() => {
-      console.log('successfully connected to DB')
-    })
-    .catch((e) => {
-      console.log(e);
-      setTimeout(connectWithRetry, 50000);
-    });
-};
-connectWithRetry();
 app.enable("trust proxy")
 
 app.use(express.json());
@@ -65,7 +42,6 @@ if (process.env.NODE_ENV === 'production') {
       path.resolve(__dirname, '../', 'front-end', 'build', 'index.html')
     )
   })
-
 }
 
 app.listen(port, () => {

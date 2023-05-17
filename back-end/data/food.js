@@ -1,0 +1,377 @@
+const food = [
+  {
+    title: 'Entree',
+    food_items: [
+      {
+        name: 'Rice paper rolls (3 rolls)(no mixing)',
+        desc: 'Grilled pork/ beef/ prawn/ chicken/ tofu',
+        price: '10',
+        image: './images/entree/ricePaper.jpg',
+      },
+      {
+        name: 'Vietnamese deep fried spring rolls (3 rolls)',
+        desc: 'Pork & taro/ veggies & tofu',
+        price: '10',
+        image: './images/entree/springRolls.jpg',
+      },
+      {
+        name: 'Crispy Vietnamese pancake',
+        price: '15',
+        image: './images/entree/pancakes.jpg',
+      },
+      {
+        name: 'Fish cakes',
+        price: '12',
+        image: './images/entree/fishCakes.jpg',
+      },
+      {
+        name: 'Ground beef in betal leaf (6 pieces)',
+        price: '10',
+        // image:
+      },
+      {
+        name: 'Crispy tofu with tamarind sauce',
+        price: '8',
+        image: './images/entree/tofuTamarind.jpg',
+      },
+      {
+        name: 'Dumpling (no mixing)',
+        desc: 'Pork/ prawn/ veggies/ scallop+$2',
+        price: '10',
+        image: './images/entree/dumpling.jpg',
+      },
+      {
+        name: 'Dumpling Scallop',
+        price: '12',
+        image: './images/entree/scallop.jpg',
+      },
+      {
+        name: 'Tempura',
+        desc: 'Prawn/ Veggies',
+        price: '9',
+        image: './images/entree/tempuraPrawn.jpg',
+      },
+      {
+        name: 'Sugarcane prawn',
+        price: '13',
+        image: './images/entree/sugarcanePrawn.jpg',
+      },
+      {
+        name: 'Eggplant tossed with ginger & shallot',
+        price: '14',
+        image: './images/entree/eggplantGS.jpg',
+      },
+      {
+        name: 'Deep fried quail',
+        price: '15',
+        // image: fishCakes
+      },
+      {
+        name: 'Deep fried dough sticks',
+        price: '3.5',
+        // image: fishCakes
+      },
+    ],
+  },
+  {
+    title: 'Salt and pepper',
+    food_items: [
+      {
+        name: 'Porkchop',
+        price: '16',
+        image: './images/saltAndPepper/porkchopSP.jpg',
+      },
+      {
+        name: 'Calamari',
+        price: '21',
+        image: './images/saltAndPepper/calamariSP.jpg',
+      },
+      {
+        name: 'Prawn',
+        price: '21',
+        image: './images/saltAndPepper/prawnSP.jpg',
+      },
+      {
+        name: 'Chicken',
+        price: '17',
+        // image: eggplant
+      },
+      {
+        name: 'Fish',
+        price: '21',
+        // image: eggplant
+      },
+      {
+        name: 'Tofu',
+        price: '14',
+        // image: eggplant
+      },
+      {
+        name: 'Eggplant',
+        price: '14',
+        image: './images/saltAndPepper/eggplantSP.jpg',
+      },
+    ],
+  },
+  {
+    title: 'Rice noodle soup',
+    food_items: [
+      {
+        name: 'Nam Dinh beef rice noodle soup',
+        price: '17',
+        image: './images/riceNoodle/namDinh.jpg',
+      },
+      {
+        name: 'Wagu beef rice noodle soup',
+        price: '21',
+        // image: './images/riceNoodle/eggplantSP.jpg'
+      },
+      {
+        name: 'Rare beef rice noodle soup',
+        price: '16',
+        image: './images/riceNoodle/rareBeef.jpg',
+      },
+      {
+        name: 'Rare beef rice noodle soup with',
+        desc: 'Tripe/ meatball/ brisket',
+        price: '17',
+        image: './images/riceNoodle/rareBeefBrisker.jpg',
+      },
+      {
+        name: 'Combination rice noodle soup',
+        price: '18',
+        image: './images/riceNoodle/combinationPho.jpg',
+      },
+      {
+        name: '(Boneless/ Free range +$1) chicken rice noodle soup',
+        price: '15',
+        // image: rareBeef
+      },
+      {
+        name: 'Seafood rice noodle soup',
+        price: '19',
+        // image: rareBeef
+      },
+      {
+        name: 'Crispy chicken rice noodle soup',
+        price: '17',
+        // image: rareBeef
+      },
+      {
+        name: 'Stew beef rice noodle soup',
+        price: '17',
+        image: './images/riceNoodle/stewBeef.jpg',
+      },
+      {
+        name: 'Stir fried rice noodle (crispy/ soft) with',
+        desc: 'Beef/ chicken/ seafood +$4',
+        price: '15',
+        image: './images/riceNoodle/friedNoodle.jpg',
+      },
+    ],
+  },
+  {
+    title: 'Vermicelli',
+    food_items: [
+      {
+        name: 'Vietnamese grill pork',
+        desc: 'extra spring rolls + $3',
+        price: 16,
+        image: './images/vermicelli/vnGrillP.jpg',
+      }, {
+        name: 'Fish cake vermicelli soup',
+        price: 16,
+        image: './images/vermicelli/fishCakeSoup.jpg',
+      }, {
+        name: 'Vermicelli salad bowl, lemongrass with',
+        desc: 'beef/ chicken/ porkchop/ crispy chicken/ sugarcane prawn/ tofu',
+        price: 16,
+        image: './images/vermicelli/saladBowl.jpg',
+      }, {
+        name: 'Farm chicken and mince pork ball vermicelli soup',
+        desc: '(Bun moc)',
+        price: 16,
+        image: './images/vermicelli/bunMoc.jpg',
+      }, {
+        name: 'Farm duck/ chicken with bamboo vermicelli soup',
+        price: 16,
+        image: './images/vermicelli/bambooSoup.jpg',
+      }, {
+        name: 'Chicken laksa vermicelli soup',
+        price: 15,
+        image: './images/vermicelli/laksa.jpg',
+      }
+    ],
+  },
+  {
+    title: 'Egg noodle soup',
+    food_items: [
+      {
+        name: 'Egg noodle with crispy chicken and vegetables',
+        price: 17,
+        image: './images/eggnoodle/eggNoodle.jpg'
+      }, {
+        name: 'Dried egg noodle with crispy chicken',
+        price: 17,
+        image: './images/eggnoodle/driedEggNoodle.jpg',
+      }, {
+        name: 'Stir fried egg noodle (soft/ crispy) with',
+        desc: 'beef/ chicken/ porkchop/ seafood + $4',
+        price: 15,
+        image: './images/eggnoodle/stirFEggN.jpg'
+      }
+    ],
+  },
+  {
+    title: 'Steam / Tomato rice',
+    food_items: [
+      {
+        name: 'Rice with porkchop and eggs',
+        price: 15,
+        image: './images/rice/ricePorkchop.jpg',
+      },
+      {
+        name: 'Rice with sweet and sour pork',
+        price: 15,
+        image: './images/rice/riceSweetPork.jpg',
+      },
+      {
+        name: 'Rice with crispy skinned chicken',
+        price: 15,
+        image: './images/rice/riceCrispyChicken.jpg',
+      },
+      {
+        name: 'Rice with stir fried vegetable',
+        desc: 'beef/ chicken/ seafood + $4',
+        price: 15,
+        image: './images/rice/riceStirVeg.jpg',
+      },
+      {
+        name: 'Rice with lemongrass and chili',
+        desc: 'beef/ chicken/ seafood + $4',
+        price: 15,
+        image: './images/rice/riceLemongChili.jpg',
+      },
+      {
+        name: 'Rice with satay sauce',
+        desc: 'beef/ chicken/ seafood + $4',
+        price: 15,
+        image: './images/rice/riceSatay.jpg',
+      },
+      {
+        name: 'Rice with ginger and shallot',
+        desc: 'beef/ chicken/ seafood + $4',
+        price: 15,
+        image: './images/rice/riceGingerSh.jpg',
+      },
+      {
+        name: 'Rice with curry sauce',
+        desc: 'beef/ chicken/ seafood + $4',
+        price: 15,
+        image: './images/rice/riceCurry.jpg',
+      },
+      {
+        name: 'Rice with Shaking cube beef',
+        price: 17,
+        image: './images/rice/riceShaking.jpg',
+      },
+      {
+        name: 'Rice with grilled chicken',
+        price: 15,
+        image: './images/rice/riceGrilledCh.jpg',
+      },
+      {
+        name: 'Rice with caramelised pork belly, eggs',
+        price: 17,
+        image: './images/rice/ricePorkBelly.jpg',
+      },
+      {
+        name: 'Fried rice with',
+        desc: 'beef/ chicken/ duck/ seafood + $4',
+        price: 15,
+        image: './images/rice/friedRice.jpg',
+      },
+      {
+        name: 'Combination fried rice',
+        desc: '(chinese sausage, bbq pork, prawn)',
+        price: 17,
+        image: './images/rice/combinationRice.jpg',
+      },
+      {
+        name: 'Salty fish fried rice with chicken',
+        price: 17,
+        image: './images/rice/riceSaltyF.jpg',
+      },
+      {
+        name: 'Vegeterian fried rice',
+        price: 14,
+        image: './images/rice/vegRice.jpg',
+      },
+      {
+        name: 'Beef fried rice with green mustard pickle',
+        price: 17,
+        image: './images/rice/ricePickle.jpg',
+      },
+    ],
+  },
+  {
+    title: 'Main',
+    food_items: [
+      {
+        name: 'Deep fried whole barramundi fish',
+        desc: '(Singapore sauce/ lemongrass chili/ ginger shallot)',
+        price: 35,
+        image: './images/main/deepFBarram.jpg'
+      }, {
+        name: 'Free range duck stir fried with mushrooms',
+        price: 17,
+        image: './images/main/duckMushrooms.jpg'
+      }, {
+        name: 'Shaking beef with onion and capsicum',
+        price: 20,
+        image: './images/main/shakingBeef.jpg'
+      }, {
+        name: 'Sweet and sour pork',
+        price: 17,
+        image: './images/main/sweetPork.jpg'
+      }, {
+        name: 'Steam boneless barramundi with ginger shallot',
+        price: 22,
+        image: './images/main/steamBarram.jpg'
+      }, {
+        name: 'Stir fried beef/ chicken/ seafood + $4 with lemongrass chili',
+        price: 18,
+        image: './images/main/lemongrassChili.jpg'
+      }, {
+        name: 'Stir fried beef/ chicken/ seafood + $4 with satay sauce',
+        price: 18,
+        image: './images/main/satay.jpg'
+      }, {
+        name: 'Stir fried beef/ chicken/ seafood + $4 with ginger shallot sauce',
+        price: 18,
+        image: './images/main/GShallot.jpg'
+      }, {
+        name: 'Seafood on the hotplate',
+        price: 18,
+        image: './images/main/hotplate.jpg'
+      }, {
+        name: 'Tomyum soup',
+        price: 18,
+        image: './images/main/tomyum.jpg'
+      }, {
+        name: 'Sweet and sour fish soup',
+        price: 18,
+        image: './images/main/sourFishS.jpg'
+      }, {
+        name: 'Grilled Maryland chicken with lemongrass',
+        price: 18,
+        image: './images/main/marylandChicken.jpg'
+      }, {
+        name: 'Stir fried duck with tamarind sauce',
+        price: 18,
+        image: './images/main/duckTamarind.jpg'
+      }
+    ]
+  }
+];
+module.exports = food;

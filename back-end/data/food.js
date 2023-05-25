@@ -46,10 +46,9 @@ const food = [
         image: './images/entree/scallop.jpg',
       },
       {
-        name: 'Tempura',
-        desc: 'Prawn/ Veggies',
-        price: '9',
-        image: './images/entree/tempuraPrawn.jpg',
+        name: 'Crab meat cake',
+        price: 14,
+        image: './images/entree/crabCake.jpg',
       },
       {
         name: 'Sugarcane prawn',
@@ -64,7 +63,7 @@ const food = [
       {
         name: 'Deep fried quail',
         price: '15',
-        // image: fishCakes
+        image: './images/entree/quail.jpg'
       },
       {
         name: 'Deep fried dough sticks',
@@ -155,7 +154,7 @@ const food = [
       {
         name: 'Crispy chicken rice noodle soup',
         price: '17',
-        // image: rareBeef
+        image: './images/riceNoodle/CChNoodle.jpg'
       },
       {
         name: 'Stew beef rice noodle soup',
@@ -175,7 +174,7 @@ const food = [
     food_items: [
       {
         name: 'Vietnamese grill pork',
-        desc: 'extra spring rolls + $3',
+        desc: 'extra spring rolls + $3.5',
         price: 16,
         image: './images/vermicelli/vnGrillP.jpg',
       }, {
@@ -184,24 +183,39 @@ const food = [
         image: './images/vermicelli/fishCakeSoup.jpg',
       }, {
         name: 'Vermicelli salad bowl, lemongrass with',
-        desc: 'beef/ chicken/ porkchop/ crispy chicken/ sugarcane prawn/ tofu',
+        desc: 'beef/ BBQ grilled pork/ chicken/ beef in betel leaf/ porkchop/ crispy chicken/ sugarcane prawn/ tofu/ pork spring rolls/ veggie spring rolls/ seadfood+$4',
         price: 16,
         image: './images/vermicelli/saladBowl.jpg',
       }, {
-        name: 'Farm chicken and mince pork ball vermicelli soup',
+        name: 'Farm chicken and mince pork ball (soup)',
         desc: '(Bun moc)',
         price: 16,
         image: './images/vermicelli/bunMoc.jpg',
       }, {
-        name: 'Farm duck/ chicken with bamboo vermicelli soup',
+        name: 'Farm duck/ chicken with bamboo (soup)',
         price: 16,
         image: './images/vermicelli/bambooSoup.jpg',
       }, {
-        name: 'Chicken laksa vermicelli soup',
+        name: 'Chicken laksa vermicelli (soup)',
         price: 15,
         image: './images/vermicelli/laksa.jpg',
       }
     ],
+  },
+  {
+    title: 'Clear vermicelli noodle',
+    food_items: [
+      {
+        name: 'Fresh chicken/ duck(+$1) clear vermicelli noodle with bamboo (soup)',
+        price: 15,
+        image: './images/clearV/clearS.jpg'
+      }, {
+        name: 'Stir fried vermicelli noodle with',
+        desc: 'beef/ chicken/ seafood +$4',
+        price: 15,
+        image: './images/clearV/stirV.jpg'
+      }
+    ]
   },
   {
     title: 'Egg noodle soup',
@@ -223,15 +237,57 @@ const food = [
     ],
   },
   {
+    title: 'Congee/ Porridge',
+    food_items: [
+      {
+        name: 'Chicken/ beef congee',
+        price: 14,
+        image: './images/congee/chickenCongee.jpg'
+      }, {
+        name: 'Mix seafood congee',
+        price: 16,
+        image: './images/congee/seafoodCongee.jpg',
+      }, {
+        name: 'Mince pork congee',
+        price: 14,
+        image: './images/congee/porkCongee.jpg'
+      }
+    ],
+  },
+  {
+    title: 'Salad',
+    food_items: [
+      {
+        name: 'Papaya salad',
+        desc: 'Prawn/ BBQ pork/ chicken/ beef/ duck',
+        price: 16,
+        image: './images/salad/papaya.jpg'
+      }, {
+        name: 'Papaya salad with tofu',
+        price: 14,
+        image: './images/salad/tofuPapaya.jpg',
+      }, {
+        name: 'Cabbages salad',
+        desc: 'prawn/ BBQ pork/ chicken/ beef/ duck',
+        price: 15,
+        image: './images/salad/cabbages.jpg'
+      }, {
+        name: 'Cabbages salad with tofu',
+        price: 13,
+        image: './images/salad/tofuCabbages.jpg'
+      }
+    ],
+  },
+  {
     title: 'Steam / Tomato rice',
     food_items: [
       {
-        name: 'Rice with porkchop and eggs',
+        name: 'Rice with porkchop and egg',
         price: 15,
         image: './images/rice/ricePorkchop.jpg',
       },
       {
-        name: 'Rice with sweet and sour pork',
+        name: 'Rice with sweet and sour porkchop',
         price: 15,
         image: './images/rice/riceSweetPork.jpg',
       },
@@ -247,7 +303,7 @@ const food = [
         image: './images/rice/riceStirVeg.jpg',
       },
       {
-        name: 'Rice with lemongrass and chili',
+        name: 'Rice with lemongrass and chili sauce',
         desc: 'beef/ chicken/ seafood + $4',
         price: 15,
         image: './images/rice/riceLemongChili.jpg',
@@ -282,7 +338,7 @@ const food = [
       },
       {
         name: 'Rice with caramelised pork belly, eggs',
-        price: 17,
+        price: 16,
         image: './images/rice/ricePorkBelly.jpg',
       },
       {
@@ -323,9 +379,13 @@ const food = [
         price: 35,
         image: './images/main/deepFBarram.jpg'
       }, {
+        name: 'Chicken steam with lotus seeds in hotpot',
+        price: 45,
+        image: './images/main/steamChicken.jpg'
+      }, {
         name: 'Free range duck stir fried with mushrooms',
         price: 17,
-        image: './images/main/duckMushrooms.jpg'
+        image: './images/main/duckMushroomss.jpg'
       }, {
         name: 'Shaking beef with onion and capsicum',
         price: 20,
@@ -351,6 +411,14 @@ const food = [
         price: 18,
         image: './images/main/GShallot.jpg'
       }, {
+        name: 'Stir fried beef/ chicken/ seafood + $4 with curry sauce',
+        price: 18,
+        image: './images/main/curry.jpg'
+      }, {
+        name: 'Stir fried fish with mushroom and snow pea',
+        price: 21,
+        image: './images/main/duckMushrooms.jpg'
+      }, {
         name: 'Seafood on the hotplate',
         price: 18,
         image: './images/main/hotplate.jpg'
@@ -372,6 +440,81 @@ const food = [
         image: './images/main/duckTamarind.jpg'
       }
     ]
+  },
+  {
+    title: 'Vegetables dish',
+    food_items: [
+      {
+        name: 'Stir fried water spinach with garlic and chili',
+        price: 14,
+        image: './images/vegetables/waterSpinach.jpg'
+      }, {
+        name: 'Stir fried snow peas with ginger',
+        price: 14,
+        image: './images/vegetables/snowpea.jpg',
+      }, {
+        name: 'Stir fried choy sum with garlic',
+        price: 14,
+        image: './images/vegetables/choysum.jpg'
+      }, {
+        name: 'Stir fried mix vegetables',
+        price: 13,
+        image: './images/vegetables/mix.jpg'
+      }
+    ],
+  },
+  {
+    title: 'Vegetarian',
+    food_items: [
+      {
+        name: 'Rice paper rolls',
+        desc: 'Tofu (3 rolls)',
+        price: 10,
+        image: './images/vegetarian/ricePTofu.jpg'
+      }, {
+        name: 'Vietnamese deep fried spring rolls',
+        desc: 'veggies and tofu (3 rolls)',
+        price: 10,
+        image: './images/vegetarian/veggieSR.jpg',
+      }, {
+        name: 'Crispy Vietnamese pancake',
+        desc: 'Tofu',
+        price: 15,
+        image: './images/vegetarian/tofuPancake.jpg'
+      }, {
+        name: 'Dumpling veggies',
+        price: 10,
+        image: './images/vegetarian/veggieD.jpg'
+      }, {
+        name: 'Eggplant tossed with ginger and shallot sauce',
+        price: 14,
+        image: './images/vegetarian/eggplantGS.jpg'
+      }, {
+        name: 'Salt and pepper',
+        desc: 'tofu/ eggplant',
+        price: 14,
+        image: './images/vegetarian/tofuSP.jpg'
+      }, {
+        name: 'Vegan rice noodle soup',
+        desc: '(tofu and veggies)',
+        price: 14,
+        image: './images/vegetarian/veganRN.jpg'
+      }, {
+        name: 'Vermicelli salad bowl, lemongrass with',
+        desc: 'tofu/ veggies spring rolls',
+        price: 14,
+        image: './images/vegetarian/saladBowl.jpg'
+      }, {
+        name: 'Stir fried vegetable with tofu',
+        desc: 'with rice extra +$3',
+        price: 14,
+        image: './images/vegetarian/vegetableTofu.jpg'
+      }, {
+        name: 'Vegetarian fried rice',
+        price: 14,
+        image: './images/vegetarian/vegetarianRice.jpg'
+      }
+    ],
   }
 ];
 module.exports = food;

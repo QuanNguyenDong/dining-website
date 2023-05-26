@@ -68,7 +68,7 @@ const food = [
       {
         name: 'Deep fried dough sticks',
         price: '3.5',
-        // image: fishCakes
+        image: './images/entree/dough.jpg'
       },
     ],
   },
@@ -190,7 +190,7 @@ const food = [
         name: 'Farm chicken and mince pork ball (soup)',
         desc: '(Bun moc)',
         price: 16,
-        image: './images/vermicelli/bunMoc.jpg',
+        // image: './images/vermicelli/bunMoc.jpg',
       }, {
         name: 'Farm duck/ chicken with bamboo (soup)',
         price: 16,
@@ -208,7 +208,7 @@ const food = [
       {
         name: 'Fresh chicken/ duck(+$1) clear vermicelli noodle with bamboo (soup)',
         price: 15,
-        image: './images/clearV/clearS.jpg'
+        // image: './images/clearV/clearS.jpg'
       }, {
         name: 'Stir fried vermicelli noodle with',
         desc: 'beef/ chicken/ seafood +$4',
@@ -270,11 +270,11 @@ const food = [
         name: 'Cabbages salad',
         desc: 'prawn/ BBQ pork/ chicken/ beef/ duck',
         price: 15,
-        image: './images/salad/cabbages.jpg'
+        // image: './images/salad/cabbages.jpg'
       }, {
         name: 'Cabbages salad with tofu',
         price: 13,
-        image: './images/salad/tofuCabbages.jpg'
+        // image: './images/salad/tofuCabbages.jpg'
       }
     ],
   },
@@ -312,7 +312,7 @@ const food = [
         name: 'Rice with satay sauce',
         desc: 'beef/ chicken/ seafood + $4',
         price: 15,
-        image: './images/rice/riceSatay.jpg',
+        // image: './images/rice/riceSatay.jpg',
       },
       {
         name: 'Rice with ginger and shallot',
@@ -324,7 +324,7 @@ const food = [
         name: 'Rice with curry sauce',
         desc: 'beef/ chicken/ seafood + $4',
         price: 15,
-        image: './images/rice/riceCurry.jpg',
+        // image: './images/rice/riceCurry.jpg',
       },
       {
         name: 'Rice with Shaking cube beef',
@@ -356,7 +356,7 @@ const food = [
       {
         name: 'Salty fish fried rice with chicken',
         price: 17,
-        image: './images/rice/riceSaltyF.jpg',
+        // image: './images/rice/riceSaltyF.jpg',
       },
       {
         name: 'Vegeterian fried rice',
@@ -385,7 +385,7 @@ const food = [
       }, {
         name: 'Free range duck stir fried with mushrooms',
         price: 17,
-        image: './images/main/duckMushroomss.jpg'
+        // image: './images/main/duckMushroomss.jpg'
       }, {
         name: 'Shaking beef with onion and capsicum',
         price: 20,
@@ -413,7 +413,7 @@ const food = [
       }, {
         name: 'Stir fried beef/ chicken/ seafood + $4 with curry sauce',
         price: 18,
-        image: './images/main/curry.jpg'
+        // image: './images/main/curry.jpg'
       }, {
         name: 'Stir fried fish with mushroom and snow pea',
         price: 21,
@@ -421,11 +421,11 @@ const food = [
       }, {
         name: 'Seafood on the hotplate',
         price: 18,
-        image: './images/main/hotplate.jpg'
+        // image: './images/main/hotplate.jpg'
       }, {
         name: 'Tomyum soup',
         price: 18,
-        image: './images/main/tomyum.jpg'
+        // image: './images/main/tomyum.jpg'
       }, {
         name: 'Sweet and sour fish soup',
         price: 18,
@@ -451,7 +451,7 @@ const food = [
       }, {
         name: 'Stir fried snow peas with ginger',
         price: 14,
-        image: './images/vegetables/snowpea.jpg',
+        // image: './images/vegetables/snowpea.jpg',
       }, {
         name: 'Stir fried choy sum with garlic',
         price: 14,
@@ -470,7 +470,7 @@ const food = [
         name: 'Rice paper rolls',
         desc: 'Tofu (3 rolls)',
         price: 10,
-        image: './images/vegetarian/ricePTofu.jpg'
+        // image: './images/vegetarian/ricePTofu.jpg'
       }, {
         name: 'Vietnamese deep fried spring rolls',
         desc: 'veggies and tofu (3 rolls)',
@@ -493,7 +493,7 @@ const food = [
         name: 'Salt and pepper',
         desc: 'tofu/ eggplant',
         price: 14,
-        image: './images/vegetarian/tofuSP.jpg'
+        // image: './images/vegetarian/tofuSP.jpg'
       }, {
         name: 'Vegan rice noodle soup',
         desc: '(tofu and veggies)',

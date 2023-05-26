@@ -2,8 +2,7 @@ import './MenuItem.css';
 const MenuItem = ({name, desc, image, price, index}) => {
   return (
     <>
-        <span style={{backgroundImage: `url(${image})`}} className="product-card__img">
-        </span>
+        {image && <span style={{backgroundImage: `url(${image})`}} className="product-card__img"></span>}        
         <div className="product-card__content">
           <div>
             <span className="product-card__content__title">{name}</span>

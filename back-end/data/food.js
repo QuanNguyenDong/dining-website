@@ -289,7 +289,7 @@ const food = [
       {
         name: 'Rice with sweet and sour porkchop',
         price: 15,
-        image: './images/rice/riceSweetPork.jpg',
+        image: './images/rice/riceSweetPork1.jpg',
       },
       {
         name: 'Rice with crispy skinned chicken',
@@ -306,7 +306,7 @@ const food = [
         name: 'Rice with lemongrass and chili sauce',
         desc: 'beef/ chicken/ seafood + $4',
         price: 15,
-        image: './images/rice/riceLemongChili.jpg',
+        image: './images/rice/riceLemongChili1.jpg',
       },
       {
         name: 'Rice with satay sauce',
@@ -334,7 +334,7 @@ const food = [
       {
         name: 'Rice with grilled chicken',
         price: 15,
-        image: './images/rice/riceGrilledCh.jpg',
+        image: './images/rice/riceGrilledCh1.jpg',
       },
       {
         name: 'Rice with caramelised pork belly, eggs',

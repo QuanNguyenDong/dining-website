@@ -20,3 +20,5 @@ exec-mongodb:
 
 exec-redis:
 	$(DK) exec -it node-docker_redis_1 bash
+
+# docker exec -it pho-nam-dinh_nodejs_1 bash

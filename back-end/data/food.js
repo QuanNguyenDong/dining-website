@@ -5,13 +5,13 @@ const food = [
       {
         name: 'Rice paper rolls (3 rolls)(no mixing)',
         desc: 'Grilled pork/ beef/ prawn/ chicken/ tofu',
-        price: '10',
+        price: 10,
         image: './images/entree/ricePaper.jpg',
       },
       {
         name: 'Vietnamese deep fried spring rolls (3 rolls)',
         desc: 'Pork & taro/ veggies & tofu',
-        price: '10',
+        price: 10,
         image: './images/entree/springRolls.jpg',
       },
       {
@@ -38,11 +38,6 @@ const food = [
         name: 'Dumpling (no mixing)',
         desc: 'Pork/ prawn/ veggies/ scallop+$2',
         price: '10',
-        image: './images/entree/dumpling.jpg',
-      },
-      {
-        name: 'Dumpling Scallop',
-        price: '12',
         image: './images/entree/scallop.jpg',
       },
       {
@@ -103,7 +98,7 @@ const food = [
       {
         name: 'Tofu',
         price: '14',
-        // image: eggplant
+        image: './images/saltAndPepper/tofuSP.jpg',
       },
       {
         name: 'Eggplant',
@@ -123,7 +118,7 @@ const food = [
       {
         name: 'Wagu beef rice noodle soup',
         price: '21',
-        // image: './images/riceNoodle/eggplantSP.jpg'
+        image: './images/riceNoodle/wagu.jpg'
       },
       {
         name: 'Rare beef rice noodle soup',
@@ -149,7 +144,7 @@ const food = [
       {
         name: 'Seafood rice noodle soup',
         price: '19',
-        // image: rareBeef
+        image: './images/riceNoodle/seafoodPho.jpg',
       },
       {
         name: 'Crispy chicken rice noodle soup',
@@ -190,7 +185,7 @@ const food = [
         name: 'Farm chicken and mince pork ball (soup)',
         desc: '(Bun moc)',
         price: 16,
-        // image: './images/vermicelli/bunMoc.jpg',
+        image: './images/vermicelli/bunMoc.jpg',
       }, {
         name: 'Farm duck/ chicken with bamboo (soup)',
         price: 16,

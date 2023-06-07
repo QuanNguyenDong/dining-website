@@ -27,7 +27,7 @@ const food = [
       {
         name: 'Ground beef in betal leaf (6 pieces)',
         price: '10',
-        // image:
+        image: './images/entree/beefBetal.jpg',
       },
       {
         name: 'Crispy tofu with tamarind sauce',
@@ -380,7 +380,7 @@ const food = [
       }, {
         name: 'Free range duck stir fried with mushrooms',
         price: 17,
-        // image: './images/main/duckMushroomss.jpg'
+        image: './images/main/duckMushroomss.jpg'
       }, {
         name: 'Shaking beef with onion and capsicum',
         price: 20,
@@ -408,7 +408,7 @@ const food = [
       }, {
         name: 'Stir fried beef/ chicken/ seafood + $4 with curry sauce',
         price: 18,
-        // image: './images/main/curry.jpg'
+        image: './images/main/curry.jpg'
       }, {
         name: 'Stir fried fish with mushroom and snow pea',
         price: 21,
@@ -420,7 +420,7 @@ const food = [
       }, {
         name: 'Tomyum soup',
         price: 18,
-        // image: './images/main/tomyum.jpg'
+        image: './images/main/tomyum.jpg'
       }, {
         name: 'Sweet and sour fish soup',
         price: 18,
@@ -446,7 +446,7 @@ const food = [
       }, {
         name: 'Stir fried snow peas with ginger',
         price: 14,
-        // image: './images/vegetables/snowpea.jpg',
+        image: './images/vegetables/snowpea.jpg',
       }, {
         name: 'Stir fried choy sum with garlic',
         price: 14,

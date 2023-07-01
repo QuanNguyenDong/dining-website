@@ -9,7 +9,6 @@ services:
 
   nodejs:
     build: .
-    image: dongquannguyen/nodejs
     environment:
       - PORT=3000
     depends_on:

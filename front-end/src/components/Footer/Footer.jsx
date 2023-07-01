@@ -28,7 +28,7 @@ const Footer = () => {
               <li>148 Norton St, Leichhardt</li>
               <li>Sydney, NSW</li>
               <li>0280 840 489</li>
-              <li>email</li>
+              <li>phonamdinh20402gmail.com</li>
             </ul>
           </div>
         </div>

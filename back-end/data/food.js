@@ -57,7 +57,7 @@ const food = [
       },
       {
         name: 'Deep fried quail',
-        price: '15',
+        price: '20',
         image: './images/entree/quail.jpg'
       },
       {
@@ -77,12 +77,12 @@ const food = [
       },
       {
         name: 'Calamari',
-        price: '21',
+        price: '22',
         image: './images/saltAndPepper/calamariSP.jpg',
       },
       {
         name: 'Prawn',
-        price: '21',
+        price: '22',
         image: './images/saltAndPepper/prawnSP.jpg',
       },
       {
@@ -92,7 +92,7 @@ const food = [
       },
       {
         name: 'Fish',
-        price: '21',
+        price: '22',
         // image: eggplant
       },
       {
@@ -117,7 +117,7 @@ const food = [
       },
       {
         name: 'Wagu beef rice noodle soup',
-        price: '21',
+        price: '24',
         image: './images/riceNoodle/wagu.jpg'
       },
       {
@@ -133,12 +133,12 @@ const food = [
       },
       {
         name: 'Combination rice noodle soup',
-        price: '18',
+        price: '19',
         image: './images/riceNoodle/combinationPho.jpg',
       },
       {
         name: '(Boneless/ Free range +$1) chicken rice noodle soup',
-        price: '15',
+        price: '16',
         // image: rareBeef
       },
       {
@@ -159,7 +159,7 @@ const food = [
       {
         name: 'Stir fried rice noodle (crispy/ soft) with',
         desc: 'Beef/ chicken/ seafood +$4',
-        price: '15',
+        price: '16',
         image: './images/riceNoodle/friedNoodle.jpg',
       },
     ],
@@ -226,7 +226,7 @@ const food = [
       }, {
         name: 'Stir fried egg noodle (soft/ crispy) with',
         desc: 'beef/ chicken/ porkchop/ seafood + $4',
-        price: 15,
+        price: 16,
         image: './images/eggnoodle/stirFEggN.jpg'
       }
     ],
@@ -492,12 +492,12 @@ const food = [
       }, {
         name: 'Vegan rice noodle soup',
         desc: '(tofu and veggies)',
-        price: 14,
+        price: 15,
         image: './images/vegetarian/veganRN.jpg'
       }, {
         name: 'Vermicelli salad bowl, lemongrass with',
         desc: 'tofu/ veggies spring rolls',
-        price: 14,
+        price: 16,
         image: './images/vegetarian/saladBowl.jpg'
       }, {
         name: 'Stir fried vegetable with tofu',

@@ -21,12 +21,12 @@ const food = [
       },
       {
         name: 'Fish cakes',
-        price: '12',
+        price: '13',
         image: './images/entree/fishCakes.jpg',
       },
       {
         name: 'Ground beef in betal leaf (6 pieces)',
-        price: '10',
+        price: '11',
         image: './images/entree/beefBetal.jpg',
       },
       {
@@ -52,12 +52,12 @@ const food = [
       },
       {
         name: 'Eggplant tossed with ginger & shallot',
-        price: '14',
+        price: '15',
         image: './images/entree/eggplantGS.jpg',
       },
       {
         name: 'Deep fried quail',
-        price: '20',
+        price: '19',
         image: './images/entree/quail.jpg'
       },
       {
@@ -72,7 +72,7 @@ const food = [
     food_items: [
       {
         name: 'Porkchop',
-        price: '16',
+        price: '17',
         image: './images/saltAndPepper/porkchopSP.jpg',
       },
       {
@@ -87,7 +87,7 @@ const food = [
       },
       {
         name: 'Chicken',
-        price: '17',
+        price: '18',
         // image: eggplant
       },
       {
@@ -97,12 +97,12 @@ const food = [
       },
       {
         name: 'Tofu',
-        price: '14',
+        price: '15',
         image: './images/saltAndPepper/tofuSP.jpg',
       },
       {
         name: 'Eggplant',
-        price: '14',
+        price: '15',
         image: './images/saltAndPepper/eggplantSP.jpg',
       },
     ],
@@ -112,7 +112,7 @@ const food = [
     food_items: [
       {
         name: 'Nam Dinh beef rice noodle soup',
-        price: '17',
+        price: '18',
         image: './images/riceNoodle/namDinh.jpg',
       },
       {
@@ -143,7 +143,7 @@ const food = [
       },
       {
         name: 'Seafood rice noodle soup',
-        price: '19',
+        price: '20',
         image: './images/riceNoodle/seafoodPho.jpg',
       },
       {
@@ -184,15 +184,15 @@ const food = [
       }, {
         name: 'Farm chicken and mince pork ball (soup)',
         desc: '(Bun moc)',
-        price: 16,
+        price: 17,
         image: './images/vermicelli/bunMoc.jpg',
       }, {
         name: 'Farm duck/ chicken with bamboo (soup)',
-        price: 16,
+        price: 17,
         image: './images/vermicelli/bambooSoup.jpg',
       }, {
         name: 'Chicken laksa vermicelli (soup)',
-        price: 15,
+        price: 16,
         image: './images/vermicelli/laksa.jpg',
       }
     ],
@@ -236,15 +236,15 @@ const food = [
     food_items: [
       {
         name: 'Chicken/ beef congee',
-        price: 14,
+        price: 16,
         image: './images/congee/chickenCongee.jpg'
       }, {
         name: 'Mix seafood congee',
-        price: 16,
+        price: 17,
         image: './images/congee/seafoodCongee.jpg',
       }, {
         name: 'Mince pork congee',
-        price: 14,
+        price: 16,
         image: './images/congee/porkCongee.jpg'
       }
     ],
@@ -283,42 +283,42 @@ const food = [
       },
       {
         name: 'Rice with sweet and sour porkchop',
-        price: 15,
+        price: 16,
         image: './images/rice/riceSweetPork1.jpg',
       },
       {
         name: 'Rice with crispy skinned chicken',
-        price: 15,
+        price: 16,
         image: './images/rice/riceCrispyChicken.jpg',
       },
       {
         name: 'Rice with stir fried vegetable',
         desc: 'beef/ chicken/ seafood + $4',
-        price: 15,
+        price: 16,
         image: './images/rice/riceStirVeg.jpg',
       },
       {
         name: 'Rice with lemongrass and chili sauce',
         desc: 'beef/ chicken/ seafood + $4',
-        price: 15,
+        price: 16,
         image: './images/rice/riceLemongChili1.jpg',
       },
       {
         name: 'Rice with satay sauce',
         desc: 'beef/ chicken/ seafood + $4',
-        price: 15,
+        price: 16,
         // image: './images/rice/riceSatay.jpg',
       },
       {
         name: 'Rice with ginger and shallot',
         desc: 'beef/ chicken/ seafood + $4',
-        price: 15,
+        price: 16,
         image: './images/rice/riceGingerSh.jpg',
       },
       {
         name: 'Rice with curry sauce',
         desc: 'beef/ chicken/ seafood + $4',
-        price: 15,
+        price: 16,
         // image: './images/rice/riceCurry.jpg',
       },
       {
@@ -328,7 +328,7 @@ const food = [
       },
       {
         name: 'Rice with grilled chicken',
-        price: 15,
+        price: 16,
         image: './images/rice/riceGrilledCh1.jpg',
       },
       {
@@ -339,7 +339,7 @@ const food = [
       {
         name: 'Fried rice with',
         desc: 'beef/ chicken/ duck/ seafood + $4',
-        price: 15,
+        price: 16,
         image: './images/rice/friedRice.jpg',
       },
       {
@@ -350,12 +350,12 @@ const food = [
       },
       {
         name: 'Salty fish fried rice with chicken',
-        price: 17,
+        price: 18,
         // image: './images/rice/riceSaltyF.jpg',
       },
       {
         name: 'Vegeterian fried rice',
-        price: 14,
+        price: 15,
         image: './images/rice/vegRice.jpg',
       },
       {
@@ -383,39 +383,39 @@ const food = [
         image: './images/main/duckMushroomss.jpg'
       }, {
         name: 'Shaking beef with onion and capsicum',
-        price: 20,
+        price: 21,
         image: './images/main/shakingBeef.jpg'
       }, {
         name: 'Sweet and sour pork',
-        price: 17,
+        price: '19.5',
         image: './images/main/sweetPork.jpg'
       }, {
         name: 'Steam boneless barramundi with ginger shallot',
-        price: 22,
+        price: 26,
         image: './images/main/steamBarram.jpg'
       }, {
         name: 'Stir fried beef/ chicken/ seafood + $4 with lemongrass chili',
-        price: 18,
+        price: '20.5',
         image: './images/main/lemongrassChili.jpg'
       }, {
         name: 'Stir fried beef/ chicken/ seafood + $4 with satay sauce',
-        price: 18,
+        price: '20.5',
         image: './images/main/satay.jpg'
       }, {
         name: 'Stir fried beef/ chicken/ seafood + $4 with ginger shallot sauce',
-        price: 18,
+        price: '20.5',
         image: './images/main/GShallot.jpg'
       }, {
         name: 'Stir fried beef/ chicken/ seafood + $4 with curry sauce',
-        price: 18,
+        price: '20.5',
         image: './images/main/curry.jpg'
       }, {
         name: 'Stir fried fish with mushroom and snow pea',
-        price: 21,
+        price: 20,
         image: './images/main/duckMushrooms.jpg'
       }, {
         name: 'Seafood on the hotplate',
-        price: 18,
+        price: 23,
         // image: './images/main/hotplate.jpg'
       }, {
         name: 'Tomyum soup',
@@ -427,11 +427,11 @@ const food = [
         image: './images/main/sourFishS.jpg'
       }, {
         name: 'Grilled Maryland chicken with lemongrass',
-        price: 18,
+        price: 22,
         image: './images/main/marylandChicken.jpg'
       }, {
         name: 'Stir fried duck with tamarind sauce',
-        price: 18,
+        price: '19.5',
         image: './images/main/duckTamarind.jpg'
       }
     ]
@@ -441,19 +441,19 @@ const food = [
     food_items: [
       {
         name: 'Stir fried water spinach with garlic and chili',
-        price: 14,
+        price: 15,
         image: './images/vegetables/waterSpinach.jpg'
       }, {
         name: 'Stir fried snow peas with ginger',
-        price: 14,
+        price: 15,
         image: './images/vegetables/snowpea.jpg',
       }, {
         name: 'Stir fried choy sum with garlic',
-        price: 14,
+        price: 15,
         image: './images/vegetables/choysum.jpg'
       }, {
         name: 'Stir fried mix vegetables',
-        price: 13,
+        price: 16,
         image: './images/vegetables/mix.jpg'
       }
     ],
@@ -482,17 +482,17 @@ const food = [
         image: './images/vegetarian/veggieD.jpg'
       }, {
         name: 'Eggplant tossed with ginger and shallot sauce',
-        price: 14,
+        price: 15,
         image: './images/vegetarian/eggplantGS.jpg'
       }, {
         name: 'Salt and pepper',
         desc: 'tofu/ eggplant',
-        price: 14,
+        price: 15,
         // image: './images/vegetarian/tofuSP.jpg'
       }, {
         name: 'Vegan rice noodle soup',
         desc: '(tofu and veggies)',
-        price: 15,
+        price: 14,
         image: './images/vegetarian/veganRN.jpg'
       }, {
         name: 'Vermicelli salad bowl, lemongrass with',
@@ -502,11 +502,11 @@ const food = [
       }, {
         name: 'Stir fried vegetable with tofu',
         desc: 'with rice extra +$3',
-        price: 14,
+        price: 17,
         image: './images/vegetarian/vegetableTofu.jpg'
       }, {
         name: 'Vegetarian fried rice',
-        price: 14,
+        price: 16,
         image: './images/vegetarian/vegetarianRice.jpg'
       }
     ],

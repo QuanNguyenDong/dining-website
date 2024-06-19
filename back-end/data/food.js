@@ -159,7 +159,7 @@ const food = [
       {
         name: 'Stir fried rice noodle (crispy/ soft) with',
         desc: 'Beef/ chicken/ seafood +$4',
-        price: '16',
+        price: '17',
         image: './images/riceNoodle/friedNoodle.jpg',
       },
     ],
@@ -202,12 +202,12 @@ const food = [
     food_items: [
       {
         name: 'Fresh chicken/ duck(+$1) clear vermicelli noodle with bamboo (soup)',
-        price: 15,
+        price: 16,
         // image: './images/clearV/clearS.jpg'
       }, {
         name: 'Stir fried vermicelli noodle with',
         desc: 'beef/ chicken/ seafood +$4',
-        price: 15,
+        price: 17,
         image: './images/clearV/stirV.jpg'
       }
     ]
@@ -226,7 +226,7 @@ const food = [
       }, {
         name: 'Stir fried egg noodle (soft/ crispy) with',
         desc: 'beef/ chicken/ porkchop/ seafood + $4',
-        price: 16,
+        price: 17,
         image: './images/eggnoodle/stirFEggN.jpg'
       }
     ],
